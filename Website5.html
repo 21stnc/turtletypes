@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css" />
+   
+  </head>
+  
+  <body>
+    <nav class="navbar">
+      <div class="brand-title">Diamondback terrapin</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="Website1.html">Home</a></li>
+          <li><a href="Website8.html">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    
+
+    <div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="DB1.jpg" alt="Lights" style="width:100%">
+            <h3>Fun Facts</h3>
+            <p>They are diamond-shaped and filled with concentric circles (like bullseye) that make this an easy species to identify. This animal is listed as endangered.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="DB2.jpg" alt="Lights" style="width:100%">
+            <h3>Enviroment</h3>
+            <p>Diamondback terrapins have been observed living in salt marshes, wetlands, mangrove swamps, estuaries, lagoons and tidal creeks.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="DB3.jpg" alt="Nature" style="width:100%">
+            <h3>Diet</h3>
+            <p>Diamondback terrapins will munch down on molluscs, crustaceans, fish, carrion and invertebrates. They use their strong, bony jaws to crush the shells of their prey.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="DB4.jpg" alt="Mountains" style="width:100%">
+            <h3>Pet Care</h3>
+            <p>In Florida you are leggally allowed to keep up to 2 of these as pets in your house. they require an aquarium that is large enough for them to swim and grow in size. .</p>
+          </div>
+        </div>
+        
+        
+        <script>
+          const toggleButton = document.getElementsByClassName("toggle-button")[0];
+          const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+    
+          toggleButton.addEventListener("click", () => {
+            navbarLinks.classList.toggle("active");
+          });
+        </script>
+  </body>
+</html>

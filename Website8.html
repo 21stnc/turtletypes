@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="brand-title">About this website</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="Website1.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="wrap">
+      <div class="imagebox">
+        <img src="unsplash.jpg" width="100%" height="auto" />
+      </div>
+
+      <div class="textbox">
+        <h2>Image references</h2>
+        <p>
+          All images seen on this webpage are from Unsplash. Unsplash photos are
+          made to be used freely.
+        </p>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="imagebox">
+        <img src="validation.jpg" width="100%" height="auto" />
+      </div>
+
+      <div class="textbox">
+        <h2>Validation</h2>
+        <p>
+          This website has been validated using W3C markup validation service.
+          The website was created by Chris Wall for his ODS class.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      const toggleButton = document.getElementsByClassName("toggle-button")[0];
+      const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+
+      toggleButton.addEventListener("click", () => {
+        navbarLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css" />
+   
+  </head>
+  
+  <body>
+    <nav class="navbar">
+      <div class="brand-title">Gopher Tortoise</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="Website1.html">Home</a></li>
+          <li><a href="Website8.html">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    
+
+    <div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="gopher1.jpg" alt="Lights" style="width:100%">
+            <h3>Fun Facts</h3>
+            <p>The gopher tortoise earned its name because it digs deep burrows—like a gopher. Gopher tortoise burrows provide shelter to hundreds of different animals.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="gopher2.jpg" alt="Lights" style="width:100%">
+            <h3>Enviroment</h3>
+            <p>This tortoise is found mainly concentrated in Florida. Though it’s most active when the weather is warm, the gopher tortoise spends much of its life inside burrows.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="gopher3.jpg" alt="Nature" style="width:100%">
+            <h3>Diet</h3>
+            <p>low-growing plants that are staples of the tortoise’s diet. It also eats berries, flowers, grass, and mushrooms, as well as apples and cactus pads.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="gopher4.jpg" alt="Mountains" style="width:100%">
+            <h3>Pet Care</h3>
+            <p>In the state of Florida, it is illegal touch and keep a gopher tortoise as a pet. Therefore it isnt wise to disturbe these reaptiles if you see one.</p>
+          </div>
+        </div>
+        
+        
+        <script>
+          const toggleButton = document.getElementsByClassName("toggle-button")[0];
+          const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+    
+          toggleButton.addEventListener("click", () => {
+            navbarLinks.classList.toggle("active");
+          });
+        </script>
+  </body>
+</html>

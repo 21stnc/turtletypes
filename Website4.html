@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css" />
+   
+  </head>
+  
+  <body>
+    <nav class="navbar">
+      <div class="brand-title">Coastal cooter</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="Website1.html">Home</a></li>
+          <li><a href="Website8.html">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    
+
+    <div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="cooter1.jpg" alt="Lights" style="width:100%">
+            <h3>Fun Facts</h3>
+            <p>The name "cooter" may have come from an African word "kuta" which means "turtle". Although river cooters are often spotted moving around in small groups or pairs, these turtles are solitary in nature.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="cooter2.jpg" alt="Lights" style="width:100%">
+            <h3>Enviroment</h3>
+            <p>River cooters are fresh-water turtles. They are usually spotted in a habitat that provides easy access to a freshwater river, lake, pond, or spring with a moderate water current. </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="cooter3.jpg" alt="Nature" style="width:100%">
+            <h3>Diet</h3>
+            <p>Their diet includes living or dead small animals like fish, bugs, crayfish, worms, and algae. During cold winters these they can go on living underwater for around 160 days without anything to eat.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="cooter4.jpg" alt="Mountains" style="width:100%">
+            <h3>Pet Care</h3>
+            <p>They are easy to maintain, calm, good-natured, and healthy creatures, making them great pets and companions. People often buy a river cooter turtle terrarium for their pet baby.</p>
+          </div>
+        </div>
+        
+        
+        <script>
+          const toggleButton = document.getElementsByClassName("toggle-button")[0];
+          const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+    
+          toggleButton.addEventListener("click", () => {
+            navbarLinks.classList.toggle("active");
+          });
+        </script>
+  </body>
+</html>

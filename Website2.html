@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css" />
+   
+  </head>
+  
+  <body>
+    <nav class="navbar">
+      <div class="brand-title">Box Turtle</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="Website1.html">Home</a></li>
+          <li><a href="Website8.html">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    
+
+    <div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="boxturtle1.jpg" alt="Lights" style="width:100%">
+            <h3>Fun Facts</h3>
+            <p>When disturbed or frightened, most box turtles will pull in their head and legs and tightly close the shell, remaining hidden until the threat of danger is past. The shell is extremely tough and almost impossible to pry open when closed.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="boxturtle2.jpg" alt="Lights" style="width:100%">
+            <h3>Enviroment</h3>
+            <p>Box turtles can be found in a variety of habitats from fields to forests, although they seem to prefer moist situations when possible. They spend much of their time buried in the leaves and dirt of the forest floor, emerging to feed.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="boxturtle3.jpg" alt="Nature" style="width:100%">
+            <h3>Diet</h3>
+            <p>Box turtles eat many kinds of plant and animal material including berries, mushrooms, earthworms, slugs, snails, and insects. While kept as a pet they can also eat store bought turtle feed as well as shrimp. </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="bocturtle4.jpg" alt="Mountains" style="width:100%">
+            <h3>Pet Care</h3>
+            <p>Box turtles primarily live on land, and they can be somewhat challenging pets. Box turtles do best in a turtle-safe outdoor pen that mimics their natural environment, as long as temperatures don’t fall below 50 degrees Fahrenheit.</p>
+          </div>
+        </div>
+        
+        
+        <script>
+          const toggleButton = document.getElementsByClassName("toggle-button")[0];
+          const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+    
+          toggleButton.addEventListener("click", () => {
+            navbarLinks.classList.toggle("active");
+          });
+        </script>
+  </body>
+</html>

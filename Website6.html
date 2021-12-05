@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css" />
+   
+  </head>
+  
+  <body>
+    <nav class="navbar">
+      <div class="brand-title">Softshell turtle</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="Website1.html">Home</a></li>
+          <li><a href="Website8.html">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    
+
+    <div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="SS1.jpg" alt="Lights" style="width:100%">
+            <h3>Fun Facts</h3>
+            <p>hile most turtles have hard shells composed of scutes, Florida softshells have cartilaginous carapaces covered in leathery skin.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="SS2.jpg" alt="Lights" style="width:100%">
+            <h3>Enviroment</h3>
+            <p>Florida softshell turtles are almost entirely aquatic, only emerging from the water to bask or to lay eggs.  Florida softshells are solitary and diurnal creatures. </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="SS3.jpg" alt="Nature" style="width:100%">
+            <h3>Diet</h3>
+            <p>Florida softshell turtles are carnivores and feed mainly on fish, insects, crustaceans, frogs, mollusks, amphibians, small turtles, snakes, and occasional aquatic birds.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="SS4.jpg" alt="Mountains" style="width:100%">
+            <h3>Pet Care</h3>
+            <p>The kind of softshell turtle you choose will determine the size of tank you need. They can be kept in a large aquarium that's at least 75 gallons.</p>
+          </div>
+        </div>
+        
+        
+        <script>
+          const toggleButton = document.getElementsByClassName("toggle-button")[0];
+          const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+    
+          toggleButton.addEventListener("click", () => {
+            navbarLinks.classList.toggle("active");
+          });
+        </script>
+  </body>
+</html>
